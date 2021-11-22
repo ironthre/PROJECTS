@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.side_menu {
+  width: 20vw;
+  background: #17183b;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.side_menu .brand_name {
+  text-transform: capitalize;
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+}
+
+.side_menu {
+  color: white;
+}
+
+.side_menu li {
+  padding: 10px 40px;
+  color: white;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  border-top: 1px solid rgba(202, 146, 146, 0.5);
+  border-bottom: 1px solid rgba(202, 146, 146, 0.5);
+}
+
+.side_menu li:hover {
+  color: #17183b;
+  background: white;
+}
+
+.name{
+  margin-top: 5%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.container {
+  background:rgba(255, 255, 255, 0.863);
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  height: 100vh;
+}
+
+.container .header {
+  background:rgba(255, 255, 255, 0.863);
+  width: 73vw;
+  height: 10vh;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .header .nav {
+  display: flex;
+  width: 90%;
+  align-items: center;
+}
+
+.container .header .nav .search {
+  flex: 3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  
+}
+
+.container .header .nav .search input[type="text"] {
+  background: white;
+  border: none;
+  padding: 10px;
+  width:50%;
+}
+
+.container .header .nav .search button {
+  border: none;
+  width: 40px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .header .user {
+  background: white;
+
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .header .user .adds .btn {
+  background: #17183b;
+  color: white;
+}
+
+.container .header .user .adds .btn:hover {
+  color: #17183b;
+  background-color: white;
+  border: 1px solid #17183b;
+  padding: 3px 8px;
+}
+
+.container .header .user  {
+  position: relative;
+  width: 40 px;
+  height: 40px;
+  color: white;
+  background: #17183b;
+  border: none;
+}
+
+.container .header .user {
+  color: #17183b;
+  background: white;
+  border: 1px solid #17183b;
+}
+
+.grid{
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  align-items: baseline;
+}
+.images{
+margin-top: 100%;
+
+}
+
+
+/* .btn {
+  display: flex;
+  height: 40px;
+  color: white;
+  padding: 5px 10px;
+  background: #17183b;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.container .header .user {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header .user button {
+  display: flex;
+  width: 50px;
+  border: none;
+  color: #17183b;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+*/
+/* try to add user icon  */
+
+/* 
+.container .header .nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}  */
